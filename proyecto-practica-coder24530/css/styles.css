@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 /* .header img{
@@ -46,6 +46,23 @@ body {
     
 }
 
+.cuadradoAnimado {
+    background: brown;
+    height: 200px;
+    width: 200px;
+    animation-name: mianimacion;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    
+}
+
+@keyframes mianimacion {
+    0% {background: #aaa;}
+    25% {background: red;}
+    50% {background: green;}
+    75% {background: pink;}
+    100% {background: blue;}
+}
 
 .box{
     border-radius: 10px;
