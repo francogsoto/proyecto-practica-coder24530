@@ -46,10 +46,15 @@ body {
     
 }
 
+section p {
+    padding: 15px;
+}
+
 .cuadradoAnimado {
     background: brown;
     height: 200px;
     width: 200px;
+    margin: 15px;
     animation-name: mianimacion;
     animation-duration: 4s;
     animation-delay: 2s;
@@ -71,6 +76,9 @@ body {
     margin: 60px auto;
 }
 
+.box p {
+    text-align: center;
+}
 .box1{
     background-color: blueviolet;
 }
