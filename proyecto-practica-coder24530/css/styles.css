@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.box{
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    margin: 60px auto;
+}
+
+.box1{
+    background-color: blueviolet;
+}
+
+.box2{
+    background-color: cadetblue;
+}
+
+.box:hover{
+    transform: scale(4);
+}
+
+.box2{
+    transition-property: all;
+    transition-duration: 2s;
+}
