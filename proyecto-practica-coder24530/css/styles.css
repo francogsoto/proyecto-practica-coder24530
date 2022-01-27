@@ -5,8 +5,47 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: bisque;
 }
+
+/* .header img{
+    border-radius: 50%;
+    margin: 15px;
+} */
+.header {
+    
+    background-color: #f89d13;
+    /* display: flex;
+    /* justify-content: center; */
+    /* text-transform: uppercase;
+    padding-top: 10px; */ 
+}
+
+.header img{
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .header a {
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+.header li {
+    display: inline;
+    list-style-type: none;
+    
+    
+} */
+
 
 .box{
     border-radius: 10px;
@@ -25,6 +64,7 @@ body {
 
 .box:hover{
     transform: scale(4);
+    
 }
 
 .box2{
