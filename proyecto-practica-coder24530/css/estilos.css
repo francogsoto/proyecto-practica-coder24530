@@ -5,18 +5,18 @@
 }
 
 body {
-    background: rgb(233, 73, 73)
+    background: #B10A0A;
 }
 
 .mainIndex {
-    background: burlywood;
+    background: #c97575;
     /* height: 600px; */
     
 
 }
 
 .mainMenu {
-    background: burlywood;
+    background: #B10A0A;
     height: 700px;
     
 }
@@ -37,4 +37,5 @@ body {
 
 .footer {
    height: 60px;
+
 }
