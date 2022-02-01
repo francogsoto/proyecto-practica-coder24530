@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(233, 73, 73)
+}
+
+.mainIndex {
+    background: burlywood;
+    /* height: 600px; */
+    
+
+}
+
+.mainMenu {
+    background: burlywood;
+    height: 700px;
+    
+}
+
+.mainMenu p {
+    margin: 5px;
+    
+}
+
+.carouselAncho {
+    width: 300px;
+
+}
+
+.cardIndex {
+    padding-top: 10px;
+}
+
+.footer {
+   height: 60px;
+}
